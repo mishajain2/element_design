@@ -1,0 +1,12 @@
+
+$(".form-group.formyoula-CheckBox div.col-sm-10").each(function(index, value){
+  $(this).removeClass("col-sm-10").addClass("col-sm-2");
+});
+
+$(".form-group.formyoula-CheckBox label.col-sm-2").each(function(index, value){
+  $(this).removeClass("col-sm-2").addClass("col-sm-10");
+});
+
+$(".form-group.formyoula-CheckBox").each(function(index, value){
+  $(this).addClass("col-sm-6");
+});
